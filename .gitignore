@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Auto-downloaded at runtime by Head_pose_and_Full_body.py, no need to commit
+code/code/holistic_landmarker.task
