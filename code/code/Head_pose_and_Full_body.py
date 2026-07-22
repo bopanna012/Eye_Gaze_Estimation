@@ -32,7 +32,7 @@ POSE_CONN_SPEC = vision.drawing_utils.DrawingSpec(color=(245, 66, 230), thicknes
 
 def ensure_model_downloaded():
     if not os.path.exists(MODEL_PATH):
-        print("Downloading holistic landmarker model (one-time, ~30MB)...")
+        print("Downloading holistic landmarker model (one-time, ~13MB)...")
         urllib.request.urlretrieve(MODEL_URL, MODEL_PATH)
 
 
